@@ -40,3 +40,30 @@ header nav ul li a span{
     font-size: 12px;
     letter-spacing: 0.6px;
 }
+
+/* Banner */
+
+#banner{
+    background-color: darkslategray;
+    color: white;
+    padding: 50px 40px;
+    display: flex;
+}
+
+#banner>.col:first-child{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#banner>.col:last-child{
+    flex: 2;
+}
+
+#banner>.col:last-child>h1{
+    font-size: 65px;
+    font-weight: lighter;
+}
+#banner>.col:last-child>h1>span{
+    font-size: 40px;
+}
