@@ -67,3 +67,70 @@ header nav ul li a span{
 #banner>.col:last-child>h1>span{
     font-size: 40px;
 }
+
+/* Section évolution */
+
+#evolution{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#evolution h2{
+    background-color: darkslategray;
+    color: white;
+    margin: 50px auto;
+    padding:  10px 40px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#evolution>div:first-of-type{
+    display: flex;
+    margin-bottom: 80px;
+    padding: 0 70px;
+}
+
+#evolution>div:first-of-type>div:first-of-type{
+    flex: 4;
+    display: flex;
+    justify-content: start;
+}
+#evolution>div:first-of-type>div:last-of-type{
+    flex: 6;
+}
+
+#evolution>div:first-of-type>div:last-of-type>p{
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding-right: 25%;
+}
+
+#evolution>div:last-of-type{
+    width: 100%;
+    background-color: gainsboro;
+    padding: 50px 0;
+}
+
+#evolution>div:last-of-type ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+#evolution>div:last-of-type ul li{
+    flex: 25%;
+}
+
+#evolution>div:last-of-type ul li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#evolution>div:last-of-type ul li a img{
+    width: 80px;
+    margin-bottom: 10px;
+}
